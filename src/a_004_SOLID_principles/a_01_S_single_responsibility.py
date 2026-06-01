@@ -1,4 +1,4 @@
-# Single Responsibility
+# Single Responsibility Principle (SRP)
 # A class should only have one reason to change.
 # In other words, a class should have only one job or responsibility.
 # Despite this principle often be used for classes it can be applied in other places for example for functions
