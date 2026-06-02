@@ -10,5 +10,14 @@ Following Topics are provided:
 - variables between modules
 - classes
   - class attributes
-- OOP - 4 pillars plus composition and DI
-- SOLID Principles
+- OOP
+  - Abstraction
+  - Encapsulation
+  - Inheritance
+  - Polymorphism
+  - Composition
+  - Dependency Injection
+- SOLID
+  - SRP - Single Responsibility Principle
+  - OCP - Open Closed Principle
+  - LSP - Liskov Substitution Principle
