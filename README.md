@@ -1,16 +1,18 @@
 # python-concepts
 
-In this repo python and OOP concepts are provided together from simple one to more complex.
-Concepts categorized by folders to be sorted easily by it numbering it their names.
-Also have tried to each concepts be in a self-described module (e.g. file).
+A small, opinionated collection of Python and object-oriented programming (OOP) examples and exercises. The goal of this repository is to provide concise, self-contained example modules that demonstrate core Python features and common OOP principles, from basic to more advanced topics.
 
-Following Topics are provided:
+Organization
+-- Each concept is placed in its own folder or file so examples are easy to find and run.
+-- Folders are numbered where appropriate to keep a clear progression from simple to complex.
 
-- IO
-- Modules
+Included topics
+
+- IO (input/output)
+- Modules and packaging
 - Classes
   - class attributes
-- OOP
+- OOP fundamentals
   - Abstraction
   - Encapsulation
   - Inheritance
@@ -19,9 +21,25 @@ Following Topics are provided:
   - Dependency Injection
   - Association
   - Aggregation
-- SOLID
+- SOLID principles
   - SRP - Single Responsibility Principle
-  - OCP - Open Closed Principle
+  - OCP - Open/Closed Principle
   - LSP - Liskov Substitution Principle
   - ISP - Interface Segregation Principle
   - DIP - Dependency Inversion Principle
+
+Getting started
+
+1. Clone the repository:
+
+   git clone <https://github.com/hassan-mohagheghian/python-concepts.git>
+
+2. Browse folders and run individual example files with Python 3.x. Each example includes a short description and, where applicable, a small demonstration or tests.
+
+Contributing
+
+- Contributions and improvements are welcome. Please open issues or pull requests for fixes, additional examples, or clarifications.
+
+License
+
+This repository is provided as-is for educational purposes. Check individual files for license or attribution notes if present.
