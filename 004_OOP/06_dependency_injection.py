@@ -1,5 +1,14 @@
-# Dependency Injection (DI)
-# we can classify it as a type of composition in which injected object is created in the side of caller and outside of the consumer class
+# OOP in Python - Dependency Injection (DI)
+# ----------------------------------------------------------------------------
+# Dependency Injection is a design pattern that allows a class to receive its dependencies
+# from an external source rather than creating them internally. This promotes loose coupling
+# and makes the code more flexible and easier to test.
+# ----------------------------------------------------------------------------
+# In this example, the Car class depends on the Engine class. Instead of creating an instance
+# of the Engine class inside the Car class, we inject the dependency through the constructor.
+# This allows us to easily swap out the Engine implementation (e.g., for testing or using
+# different types of engines) without modifying the Car class, adhering to the Dependency
+# Inversion Principle.
 
 
 class Engine:
@@ -28,6 +37,7 @@ class Car:
         self.engine.start()
 
 
-electric_engine = ElectricEngine()
-car = Car(engine=ElectricEngine())
-car.start()
+if __name__ == "__main__":
+    electric_engine = ElectricEngine()
+    car = Car(engine=ElectricEngine())
+    car.start()

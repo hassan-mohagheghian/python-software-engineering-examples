@@ -17,6 +17,8 @@ Following Topics are provided:
   - Polymorphism
   - Composition
   - Dependency Injection
+  - Association
+  - Aggregation
 - SOLID
   - SRP - Single Responsibility Principle
   - OCP - Open Closed Principle
