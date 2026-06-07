@@ -21,6 +21,10 @@ Included topics
   - Dependency Injection
   - Association
   - Aggregation
+  - Delegation
+  - Mixin
+  - Interface
+  - Abstract Class
 - SOLID principles
   - SRP - Single Responsibility Principle
   - OCP - Open/Closed Principle
