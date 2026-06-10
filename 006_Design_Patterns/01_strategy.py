@@ -28,6 +28,32 @@
 # The Checkout class does not need to know how each payment method works.
 # It only knows that every strategy provides a pay() method.
 
+# -----------------------------------------------------------------------------
+#
+# Relationship to OOP Concepts:
+#
+# - Abstraction:
+#     PaymentStrategy defines the common contract.
+#
+# - Polymorphism:
+#     Different payment strategies provide different implementations
+#     of the same pay() method.
+#
+# - Composition:
+#     Checkout contains a PaymentStrategy.
+#
+# - Dependency Injection:
+#     The strategy is provided from outside the Checkout class.
+#
+# Relationship to SOLID:
+#
+# - OCP:
+#     New strategies can be added without changing existing code.
+#
+# - DIP:
+#     Checkout depends on an abstraction rather than concrete classes.
+# -----------------------------------------------------------------------------
+
 
 from abc import ABC, abstractmethod
 from decimal import Decimal
