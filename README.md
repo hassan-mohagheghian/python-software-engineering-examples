@@ -33,8 +33,11 @@ Included topics
   - LSP - Liskov Substitution Principle
   - ISP - Interface Segregation Principle
   - DIP - Dependency Inversion Principle
+- Design Patterns
+  - Strategy Pattern
+  - Factory Method Pattern
 
-Getting started
+## Getting started
 
 1. Clone the repository:
 
@@ -42,10 +45,10 @@ Getting started
 
 2. Browse folders and run individual example files with Python 3.x. Each example includes a short description and, where applicable, a small demonstration or tests.
 
-Contributing
+## Contributing
 
 - Contributions and improvements are welcome. Please open issues or pull requests for fixes, additional examples, or clarifications.
 
-License
+## License
 
 This repository is provided as-is for educational purposes. Check individual files for license or attribution notes if present.
