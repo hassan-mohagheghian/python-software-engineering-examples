@@ -37,6 +37,10 @@ Included topics
   - Strategy Pattern
   - Factory Method Pattern
   - Abstract Factory Pattern
+  - Adapter Pattern
+  - Facade Pattern
+- System Design
+  - Client Server Model
 
 ## Getting started
 
