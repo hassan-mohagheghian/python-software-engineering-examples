@@ -44,6 +44,7 @@ ordered from beginner topics toward advanced engineering topics.
 - Sharing global variables between modules
 - Defining and calling functions
 - Public, protected, and private attribute conventions
+- Creating data-focused classes with dataclass
 - Handling errors with try / except
 
 ### Object-Oriented Programming
