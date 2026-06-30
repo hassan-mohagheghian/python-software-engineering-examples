@@ -93,6 +93,8 @@ ordered from beginner topics toward advanced engineering topics.
 - Composite Pattern
 - Bridge Pattern
 - Flyweight Pattern
+- Chain of Responsibility Pattern
+- Command Pattern
 
 ### System Design
 
