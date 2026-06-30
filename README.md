@@ -18,10 +18,11 @@ PSE_002_Modules/            Module-level behavior and shared state
 PSE_003_Functions/          Function basics and reusable behavior
 PSE_004_Classes/            Class attributes and access conventions
 PSE_005_Error_Handling/     Exceptions and failure handling
-PSE_006_OOP/                Object-oriented programming concepts
-PSE_007_SOLID_Principles/   SOLID principle examples
-PSE_008_Design_Patterns/    Common object-oriented design patterns
-PSE_009_System_Design/      Backend and distributed-system concepts
+PSE_006_Data_Structures/    Built-in containers and common structures
+PSE_007_OOP/                Object-oriented programming concepts
+PSE_008_SOLID_Principles/   SOLID principle examples
+PSE_009_Design_Patterns/    Common object-oriented design patterns
+PSE_010_System_Design/      Backend and distributed-system concepts
 ```
 
 Folder names use this convention:
@@ -46,6 +47,7 @@ ordered from beginner topics toward advanced engineering topics.
 - Public, protected, and private attribute conventions
 - Creating data-focused classes with dataclass
 - Handling errors with try / except
+- Working with lists and other data structures
 
 ### Object-Oriented Programming
 
@@ -111,8 +113,9 @@ Run any example directly with Python:
 ```bash
 python PSE_003_Functions/01_basic_functions.py
 python PSE_005_Error_Handling/01_try_except.py
-python PSE_008_Design_Patterns/01_strategy_pattern.py
-python PSE_009_System_Design/08_microservices_architecture/08_microservices_architecture.py
+python PSE_006_Data_Structures/01_list.py
+python PSE_009_Design_Patterns/01_strategy_pattern.py
+python PSE_010_System_Design/08_microservices_architecture/08_microservices_architecture.py
 ```
 
 Most files include:
