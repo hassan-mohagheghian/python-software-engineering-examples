@@ -13,24 +13,25 @@ and modified without needing a full application setup.
 ## Repository Structure
 
 ```text
-PSE_001_Input_Output/          Input and output examples
-PSE_002_Modules/              Module-level behavior and shared state
-PSE_003_Functions/             Function basics and reusable behavior
-PSE_004_Classes/              Class attributes and access conventions
-PSE_005_OOP/                  Object-oriented programming concepts
-PSE_006_SOLID_Principles/   SOLID principle examples
-PSE_007_Design_Patterns/       Common object-oriented design patterns
-PSE_008_System_Design/         Backend and distributed-system concepts
+PSE_001_Input_Output/       Input and output examples
+PSE_002_Modules/            Module-level behavior and shared state
+PSE_003_Functions/          Function basics and reusable behavior
+PSE_004_Classes/            Class attributes and access conventions
+PSE_005_Error_Handling/     Exceptions and failure handling
+PSE_006_OOP/                Object-oriented programming concepts
+PSE_007_SOLID_Principles/   SOLID principle examples
+PSE_008_Design_Patterns/    Common object-oriented design patterns
+PSE_009_System_Design/      Backend and distributed-system concepts
 ```
 
 Folder names use this convention:
 
 ```text
-PSE_<TOPIC_ABBREVIATION>_<ORDER>_<TOPIC_NAME>
+PSE_<ORDER>_<TOPIC_NAME>
 ```
 
-`PSE` means Python Software Engineering. The topic abbreviation makes folders
-quick to scan, and the number keeps the learning path ordered.
+`PSE` means Python Software Engineering. The number keeps the learning path
+ordered from beginner topics toward advanced engineering topics.
 
 ## Topics Covered
 
@@ -43,6 +44,7 @@ quick to scan, and the number keeps the learning path ordered.
 - Sharing global variables between modules
 - Defining and calling functions
 - Public, protected, and private attribute conventions
+- Handling errors with try / except
 
 ### Object-Oriented Programming
 
@@ -106,9 +108,10 @@ quick to scan, and the number keeps the learning path ordered.
 Run any example directly with Python:
 
 ```bash
-python PSE_FN_003_Functions/01_basic_functions.py
-python PSE_DP_007_Design_Patterns/01_strategy_pattern.py
-python PSE_SD_008_System_Design/08_microservices_architecture/08_microservices_architecture.py
+python PSE_003_Functions/01_basic_functions.py
+python PSE_005_Error_Handling/01_try_except.py
+python PSE_008_Design_Patterns/01_strategy_pattern.py
+python PSE_009_System_Design/08_microservices_architecture/08_microservices_architecture.py
 ```
 
 Most files include:
