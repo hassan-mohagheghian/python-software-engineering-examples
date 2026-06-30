@@ -40,6 +40,11 @@ Included topics
   - Adapter Pattern
   - Facade Pattern
   - Decorator Pattern
+  - Builder Pattern
+  - Proxy Pattern
+  - Composite Pattern
+  - Bridge Pattern
+  - Flyweight Pattern
 - System Design
   - Client Server Model
   - HTTP Rest
