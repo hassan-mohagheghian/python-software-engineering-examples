@@ -13,18 +13,24 @@ and modified without needing a full application setup.
 ## Repository Structure
 
 ```text
-001_IO_Input_Output/        Input and output examples
-002_Modules/                Module-level behavior and shared state
-003_Classes/                Class attributes and access conventions
-004_OOP/                    Object-oriented programming concepts
-005_SOLID_Principles/       SOLID principle examples
-006_Design_Patterns/        Common object-oriented design patterns
-007_System_Design/          Backend and distributed-system concepts
+PSE_001_Input_Output/          Input and output examples
+PSE_002_Modules/              Module-level behavior and shared state
+PSE_003_Functions/             Function basics and reusable behavior
+PSE_004_Classes/              Class attributes and access conventions
+PSE_005_OOP/                  Object-oriented programming concepts
+PSE_006_SOLID_Principles/   SOLID principle examples
+PSE_007_Design_Patterns/       Common object-oriented design patterns
+PSE_008_System_Design/         Backend and distributed-system concepts
 ```
 
-Numbered folders keep the learning path ordered. Some folder names start with
-numbers for readability in the file browser, so they are meant to be run as
-example files rather than imported as normal Python packages.
+Folder names use this convention:
+
+```text
+PSE_<TOPIC_ABBREVIATION>_<ORDER>_<TOPIC_NAME>
+```
+
+`PSE` means Python Software Engineering. The topic abbreviation makes folders
+quick to scan, and the number keeps the learning path ordered.
 
 ## Topics Covered
 
@@ -35,6 +41,7 @@ example files rather than imported as normal Python packages.
 - Reading and writing text files
 - Importing custom modules
 - Sharing global variables between modules
+- Defining and calling functions
 - Public, protected, and private attribute conventions
 
 ### Object-Oriented Programming
@@ -99,8 +106,9 @@ example files rather than imported as normal Python packages.
 Run any example directly with Python:
 
 ```bash
-python 006_Design_Patterns/01_strategy_pattern.py
-python 007_System_Design/08_microservices_architecture/08_microservices_architecture.py
+python PSE_FN_003_Functions/01_basic_functions.py
+python PSE_DP_007_Design_Patterns/01_strategy_pattern.py
+python PSE_SD_008_System_Design/08_microservices_architecture/08_microservices_architecture.py
 ```
 
 Most files include:
