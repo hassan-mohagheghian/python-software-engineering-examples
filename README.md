@@ -33,6 +33,7 @@ example files rather than imported as normal Python packages.
 - Reading one or more lines from standard input
 - Working with simple log-style input
 - Reading and writing text files
+- Importing custom modules
 - Sharing global variables between modules
 - Public, protected, and private attribute conventions
 
