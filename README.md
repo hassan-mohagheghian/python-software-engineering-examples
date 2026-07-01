@@ -81,17 +81,25 @@ ordered from beginner topics toward advanced engineering topics.
 
 ### Design Patterns
 
-- Strategy Pattern
+#### Creational Patterns
+
 - Factory Method Pattern
 - Abstract Factory Pattern
+- Builder Pattern
+
+#### Structural Patterns
+
 - Adapter Pattern
 - Facade Pattern
 - Decorator Pattern
-- Builder Pattern
 - Proxy Pattern
 - Composite Pattern
 - Bridge Pattern
 - Flyweight Pattern
+
+#### Behavioral Patterns
+
+- Strategy Pattern
 - Chain of Responsibility Pattern
 - Command Pattern
 - Template Method Pattern
@@ -121,11 +129,11 @@ Run any example directly with Python:
 python PSE_003_Functions/01_basic_functions.py
 python PSE_005_Error_Handling/01_try_except.py
 python PSE_006_Data_Structures/01_list.py
-python PSE_009_Design_Patterns/01_strategy_pattern.py
+python PSE_009_Design_Patterns/Behavioral/DP_01_strategy_pattern.py
 python PSE_010_System_Design/08_microservices_architecture/08_microservices_architecture.py
 python PSE_010_System_Design/09_consistent_hashing/09_consistent_hashing.py
 python PSE_011_Concurrency_and_Parallelism/CP_01_synchronous_vs_asynchronous.py
-python PSE_009_Design_Patterns/DP_14_template_method_pattern.py
+python PSE_009_Design_Patterns/Behavioral/DP_14_template_method_pattern.py
 ```
 
 Most files include:
