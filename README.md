@@ -23,6 +23,7 @@ PSE_007_OOP/                Object-oriented programming concepts
 PSE_008_SOLID_Principles/   SOLID principle examples
 PSE_009_Design_Patterns/    Common object-oriented design patterns
 PSE_010_System_Design/      Backend and distributed-system concepts
+PSE_011_Concurrency_and_Parallelism/ Concurrency and parallelism concepts
 ```
 
 Folder names use this convention:
@@ -109,6 +110,10 @@ ordered from beginner topics toward advanced engineering topics.
 - Microservices Architecture
 - Consistent Hashing
 
+### Concurrency & Parallelism
+
+- Synchronous vs Asynchronous I/O with `asyncio`
+
 ## How To Use
 
 Run any example directly with Python:
@@ -120,6 +125,7 @@ python PSE_006_Data_Structures/01_list.py
 python PSE_009_Design_Patterns/01_strategy_pattern.py
 python PSE_010_System_Design/08_microservices_architecture/08_microservices_architecture.py
 python PSE_010_System_Design/09_consistent_hashing/09_consistent_hashing.py
+python PSE_011_Concurrency_and_Parallelism/CP_01_synchronous_vs_asynchronous.py
 ```
 
 Most files include:
