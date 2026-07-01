@@ -66,8 +66,6 @@ ordered from beginner topics toward advanced engineering topics.
 - Abstract Class
 - Duck Typing
 - Protocol
-- Factory Method
-- Template Method
 - State
 - Value Object
 - Entity
@@ -96,6 +94,7 @@ ordered from beginner topics toward advanced engineering topics.
 - Flyweight Pattern
 - Chain of Responsibility Pattern
 - Command Pattern
+- Template Method Pattern
 
 ### System Design
 
@@ -126,6 +125,7 @@ python PSE_009_Design_Patterns/01_strategy_pattern.py
 python PSE_010_System_Design/08_microservices_architecture/08_microservices_architecture.py
 python PSE_010_System_Design/09_consistent_hashing/09_consistent_hashing.py
 python PSE_011_Concurrency_and_Parallelism/CP_01_synchronous_vs_asynchronous.py
+python PSE_009_Design_Patterns/DP_14_template_method_pattern.py
 ```
 
 Most files include:
