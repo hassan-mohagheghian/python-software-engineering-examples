@@ -83,6 +83,7 @@ ordered from beginner topics toward advanced engineering topics.
 
 #### Creational Patterns
 
+- Singleton Pattern
 - Factory Method Pattern
 - Abstract Factory Pattern
 - Builder Pattern
@@ -134,8 +135,9 @@ python PSE_009_Design_Patterns/Behavioral/DP_01_strategy_pattern.py
 python PSE_010_System_Design/08_microservices_architecture/08_microservices_architecture.py
 python PSE_010_System_Design/09_consistent_hashing/09_consistent_hashing.py
 python PSE_011_Concurrency_and_Parallelism/CP_01_synchronous_vs_asynchronous.py
-python PSE_009_Design_Patterns/Behavioral/DP_14_template_method_pattern.py
-python PSE_009_Design_Patterns/Behavioral/DP_15_observer_pattern.py
+python PSE_009_Design_Patterns/Behavioral/DP_02_template_method_pattern.py
+python PSE_009_Design_Patterns/Behavioral/DP_03_observer_pattern.py
+python PSE_009_Design_Patterns/Creational/DP_01_singleton_pattern.py
 ```
 
 Most files include:
