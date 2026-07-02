@@ -13,6 +13,7 @@ and modified without needing a full application setup.
 ## Repository Structure
 
 ```text
+PSE_000_Python_Basics/      Python fundamentals and core syntax
 PSE_001_Input_Output/       Input and output examples
 PSE_002_Modules/            Module-level behavior and shared state
 PSE_003_Functions/          Function basics and reusable behavior
@@ -39,6 +40,7 @@ ordered from beginner topics toward advanced engineering topics.
 
 ### Python Basics
 
+- Variables, dynamic typing, and unpacking
 - Reading one or more lines from standard input
 - Working with simple log-style input
 - Reading and writing text files
