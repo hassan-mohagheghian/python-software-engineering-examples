@@ -87,6 +87,7 @@ ordered from beginner topics toward advanced engineering topics.
 - Factory Method Pattern
 - Abstract Factory Pattern
 - Builder Pattern
+- Prototype Pattern
 
 #### Structural Patterns
 
