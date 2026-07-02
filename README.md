@@ -120,6 +120,7 @@ ordered from beginner topics toward advanced engineering topics.
 - Database Replication
 - Microservices Architecture
 - Consistent Hashing
+- URL Shortener
 
 ### Concurrency & Parallelism
 
