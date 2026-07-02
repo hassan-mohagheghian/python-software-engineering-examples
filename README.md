@@ -106,6 +106,7 @@ ordered from beginner topics toward advanced engineering topics.
 - Command Pattern
 - Template Method Pattern
 - Observer Pattern
+- Iterator Pattern
 
 ### System Design
 

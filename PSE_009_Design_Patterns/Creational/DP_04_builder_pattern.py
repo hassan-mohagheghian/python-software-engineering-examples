@@ -42,7 +42,10 @@
 # - FastAPI request models setup
 # -----------------------------------------------------------------------------
 
+
 from abc import ABC, abstractmethod
+
+from typing_extensions import Self
 
 # -----------------------------------------------------------------------------
 # Product
@@ -51,10 +54,10 @@ from abc import ABC, abstractmethod
 
 class Computer:
     def __init__(self):
-        self.cpu = None
-        self.ram = None
-        self.storage = None
-        self.gpu = None
+        self.cpu: str | None = None
+        self.ram: str | None = None
+        self.storage: str | None = None
+        self.gpu: str | None = None
 
     def __str__(self):
         return (
@@ -72,19 +75,19 @@ class Computer:
 
 class ComputerBuilder(ABC):
     @abstractmethod
-    def set_cpu(self):
+    def set_cpu(self) -> Self:
         pass
 
     @abstractmethod
-    def set_ram(self):
+    def set_ram(self) -> Self:
         pass
 
     @abstractmethod
-    def set_storage(self):
+    def set_storage(self) -> Self:
         pass
 
     @abstractmethod
-    def set_gpu(self):
+    def set_gpu(self) -> Self:
         pass
 
     @abstractmethod
